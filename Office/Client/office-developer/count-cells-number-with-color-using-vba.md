@@ -49,7 +49,7 @@ Here are the steps to create a UDF to count cell color:
 5. In cell D3, write the function: 
 
 ```
-=CountCcolor(range_data,criteria)
+=CountCcolor(range_data;criteria)
 ```
 
 * In the "range_data" argument, select cell C2 to C51.
@@ -93,7 +93,7 @@ Here are the steps to create a UDF to count cell color:
 The Count Cell Color UDF is installed and ready to use. You will be able to access this function anytime by placing your cursor into any cell in the worksheet and typing:
 
 ```
-=CountCcolor(range_data,criteria)
+=CountCcolor(range_data;criteria)
 ```
 
 ### Community Solutions Content Disclaimer
